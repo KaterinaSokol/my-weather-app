@@ -25,7 +25,6 @@ li {
 
 }
 
-
 .weatherapp {
     max-width: 600px;
     border: 1px solid rgb(213, 208, 208);
@@ -62,10 +61,7 @@ img {
     float: left;
     display: block;
     top: -40px;
-   
 }
 h5{
     font-size: 15px;
-
-    
 }
