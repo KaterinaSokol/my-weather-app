@@ -16,7 +16,6 @@ let changeInformation = document.querySelector("#date-time");
 changeInformation.innerHTML = `${day}, ${hours}:${minutes}`;
 
 
-
 function showWeather(response){
     let temperature = Math.round(response.data.main.temp);
     let description = (response.data.weather[0].description);
@@ -42,7 +41,6 @@ function searchCity(cityName){
     axios.get(apiUrl).then(showWeather);
 
 }
-
 
 
 function ourSubmit(event){
